@@ -1,0 +1,38 @@
+.createPostModal {
+  position: relative;
+  padding-top: 20%;
+  position: relative;
+  background-color: #ffffff !important;
+}
+.postModalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60;
+  line-height: 60px;
+  width: 80%;
+  min-height: 200px;
+  border-radius: 20px;
+  background-color: rgb(221, 205, 205) !important;
+
+  .crossButnIcon {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+
+    .cancelIcon {
+      width: 40px;
+      height: 40px;
+      color: #000000;
+    }
+  }
+
+  .postModalHeader {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0px 40px;
+  }
+}

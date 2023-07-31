@@ -1,0 +1,77 @@
+.createPostModal {
+  position: relative;
+  background-color: #ffffff !important;
+
+  .postModalContainer {
+    position: absolute;
+    line-height: 60px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(221, 205, 205) !important;
+
+    .crossButnIcon {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 30px;
+      cursor: pointer;
+
+      .cancelIcon {
+        width: 40px;
+        height: 40px;
+      }
+      .nextButton {
+        font: 1em;
+        font-weight: 500;
+      }
+    }
+    .optionContainer {
+      margin-top: 60px;
+      margin-left: 20px;
+
+      .postModalHeader {
+        .postModalTitle {
+          font-size: 1.5rem;
+          font-weight: 500;
+          margin: 0px 50px;
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          cursor: pointer;
+
+          .AddPhotoIcon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+          }
+          .inputFiled {
+            cursor: pointer;
+            input[type="file"] {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .photoEditorModal {
+    position: absolute;
+    line-height: 60px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(221, 205, 205) !important;
+
+    .crossButnIcon {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 30px;
+      cursor: pointer;
+    }
+    .cancelIcon {
+      width: 40px;
+      height: 40px;
+    }
+    .photoEditorContainer {
+      margin: 0px 20px;
+    }
+  }
+}
